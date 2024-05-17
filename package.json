@@ -2,7 +2,8 @@
   "name": "showdown-stats",
   "version": "1.0.0",
   "description": "Stat report for Pokemon Showdown",
-  "main": "index.js",
+  "type": "module",
+  "main": "main.js",
   "scripts": {
     "start": "node main.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
@@ -27,5 +28,9 @@
   "homepage": "https://github.com/misterlister/showdown-stats#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0"
   }
 }
